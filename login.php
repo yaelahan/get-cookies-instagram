@@ -69,7 +69,7 @@ class Instagram{
 echo "+++ Get Cookie Instagram +++\n";
 $user = readline("[+] Username  : ");
 $pass = readline("[+] Password  : ");
-echo "Plase wait ...";
+echo "Please wait ...";
 
 $ig = new Instagram($user, $pass);
 
