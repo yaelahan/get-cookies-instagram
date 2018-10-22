@@ -1,0 +1,31 @@
+{
+  "name": "get-cookies-instagram",
+  "version": "2.0.0",
+  "description": "Get Cookies Instagram",
+  "main": "login_v2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaelahan/get-cookies-instagram.git"
+  },
+  "keywords": [
+    "Get",
+    "Cookies",
+    "Instagram"
+  ],
+  "author": "yaelahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaelahan/get-cookies-instagram/issues"
+  },
+  "homepage": "https://github.com/yaelahan/get-cookies-instagram#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "crypto-js": "^3.1.9-1",
+    "inquirer": "^6.2.0",
+    "js-md5": "^0.7.3",
+    "request": "^2.88.0"
+  }
+}
