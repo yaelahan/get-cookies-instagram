@@ -28,13 +28,13 @@ const user = [{
 
 const generateUUID = () => {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-        var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+        let r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
         return v.toString(16);
     }).toLowerCase();
 }
 
 const generateDeviceId = () => {
-    return `android-${md5(_.random(9999))}${_.random(9)}`;
+    return `android-${md5(_.random(9999).toString())}${_.random(9).toString()}`;
 }
 
 const generateSignature = (body) => {
