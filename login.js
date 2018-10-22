@@ -24,8 +24,9 @@ const user = [{
 ];
 
 const login = (account) => {
-    request.post({
+    request({
         url: 'https://www.instagram.com/accounts/login/ajax/',
+        method: 'POST',
         form: {...account},
         headers: {
             'User-Agent': 'request',

@@ -1,16 +1,16 @@
 # Get Cookies Instagram
 
 ## Requirement
-
-Get cookies instagram only requires [PHP](http://php.net/).  
+- Node JS 
 
 ## Installation via git
 
 ```
 $ git clone https://github.com/yaelahan/get-cookies-instagram
+$ npm install request inquirer chalk
 ```
 ## Usage
 ```
 $ cd get-cookies-instagram
-$ php login.php
+$ node login.js
 ```
